@@ -1,0 +1,31 @@
+.back-to-top {
+  position: fixed;
+  z-index: 1000;
+  bottom: 15px;
+  right: 15px;
+  font-size: 14px;
+  background-color: #deb666;
+  padding: 18px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+  animation: animation-scrool-top 1s 0.5s forwards;
+  transition: all 0.5s;
+  opacity: 0;
+  &:hover {
+    background-color: rgba(183, 147, 75, 0.796);
+    transition: 0.3s all;
+  }
+}
+@keyframes animation-scrool-top {
+  0% {
+    transform: translateX(250%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

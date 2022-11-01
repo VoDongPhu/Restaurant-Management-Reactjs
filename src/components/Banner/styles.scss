@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Pragati+Narrow&family=Sacramento&display=swap");
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 50px;
+    video {
+        position: absolute;
+        z-index: -100;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        animation: animation-banner 1.2s 0.5s forwards;
+        transition: all 1s;
+        opacity: 0;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        // background: linear-gradient(135deg, rgba(#e66465, .5) 0, rgba(#9198e5, .5) 100%);
+        background: linear-gradient( 135deg, rgba(147, 0, 17, 0.5) 0, rgba(86, 20, 147, 0.5) 100%);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: -50;
+        animation: animation-banner 1.2s 0.5s forwards;
+        transition: all 1s;
+        opacity: 0;
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        p {
+            transform: rotate(270deg);
+            font-size: 10.5px;
+            margin-right: -25px;
+            font-weight: 700;
+            animation: animation-sub-title 1.5s 3s forwards;
+            transition: all 0.5s;
+            opacity: 0;
+        }
+        h2 {
+            font-size: 100px;
+            font-family: "Lato", sans-serif;
+            animation: animation-main-title 1.5s 2.2s forwards;
+            transition: all 0.5s;
+            opacity: 0;
+        }
+    }
+    .btn-book-now {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 35vh;
+        animation: animation-button-booknow 1.5s 3s forwards;
+        transition: all 0.5s;
+        opacity: 0;
+        a {
+            &:hover {
+                background-color: rgb(197, 157, 79);
+                transition: 0.3s all;
+            }
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial,
+            Helvetica,
+            sans-serif;
+            font-weight: 780px;
+            padding: 10px 20px;
+            background-color: #deb666;
+            .fa-calendar-days {
+                margin-right: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+    //--- animation banner content ---
+    @keyframes animation-banner {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes animation-main-title {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+    @keyframes animation-sub-title {
+        0% {
+            transform: rotate(270deg) translateY(250%);
+            opacity: 0;
+        }
+        100% {
+            transform: rotate(270deg) translateY(0);
+            opacity: 1;
+        }
+    }
+    @keyframes animation-button-booknow {
+        0% {
+            transform: translateX(200%);
+            opacity: 1;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    //--- animation banner content ---
+}

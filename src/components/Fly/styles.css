@@ -1,0 +1,270 @@
+.fly-container {
+    margin-bottom: 44px;
+}
+
+.fly-container-main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1188px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fly-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fly-haeder-left-content {
+    color: #1a202c;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.fly-header-left-hcm {
+    display: flex;
+}
+
+.ly-header-left-from {
+    margin-left: 8px;
+    visibility: hidden !important;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+}
+
+.fly-header-left-from-content {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: rgb(255, 51, 102);
+    cursor: pointer;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+}
+
+.fly-header-left-from {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+}
+
+.flys-span {
+    color: #4a5568;
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.fly-header-btn {
+    color: #1a202c;
+    margin-top: 12px;
+    text-decoration: none !important;
+    margin: 0;
+}
+
+.fly-header-btn-content {
+    color: rgb(255, 51, 102);
+    width: fit-content;
+    border: 1px solid rgb(255, 51, 102);
+    height: 40px;
+    margin: 0px;
+    padding: 12px;
+    font-size: 14px;
+    min-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-transform: none;
+    background-color: inherit;
+    min-width: unset;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.fly-header-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.fly-header-label-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.fly-header-kpn {
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
+
+.fly-slider {
+    border: 1px solid #EDF2F7;
+    cursor: pointer;
+    padding: 16px;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 3%);
+    margin-top: 16px;
+    margin-right: 16px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.fly-slider-main {
+    display: flex;
+    align-items: center;
+}
+
+.fly-slider-content {
+    color: #1A202C;
+    background: #fff;
+    margin-top: 16px;
+}
+
+.fly-slider-content-title {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.fly-slider-tsn {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+}
+
+.fly-slider-tsn-icon {
+    margin-top: -4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+}
+
+.fly-slider-nb {
+    color: #1a202c;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+}
+
+.fly-slider-kh {
+    color: #4A5568;
+    width: 100%;
+    display: flex;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 16px;
+    margin: 0;
+}
+
+.fly-slider-price {
+    margin-top: 12px;
+    outline: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.fly-slider-price-content {
+    outline: none;
+}
+
+.fly-slider-price-content-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.fly-slider-caption {
+    color: #4A5568;
+    text-align: right;
+    text-decoration-line: line-through;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+}
+
+.fly-slider-sub {
+    color: #1a202c;
+    font-size: 18px;
+    text-align: right;
+    line-height: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.fly-slider-mutil-span {
+    color: rgb(74, 85, 104);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+}
+
+.swiper-button-prev {
+    background: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    border-radius: 100px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 8px 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    /* transform: translate(-50%, -50%); */
+    left: 0px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 18px;
+    color: black;
+}
+
+.swiper-button-next {
+    background: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    border-radius: 100px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 8px 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}

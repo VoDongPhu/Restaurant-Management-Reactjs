@@ -1,0 +1,72 @@
+.MuiDrawer-paperAnchorRight {
+    left: auto;
+    right: 0;
+}
+.MuiDrawer-paper {
+    top: 0;
+    flex: 1 0 auto;
+    height: 100%;
+    display: flex;
+    outline: 0;
+    z-index: 1200;
+    position: fixed;
+    overflow-y: auto;
+    flex-direction: column;
+}
+.MuiPaper-elevation16 {
+    box-shadow: 0px 8px 10px -5px rgb(0 0 0 / 20%), 0px 16px 24px 2px rgb(0 0 0 / 14%), 0px 6px 30px 5px rgb(0 0 0 / 12%);
+}
+.jss425 {
+    width: 304px;
+    height: 100%;
+    padding: 8px 16px;
+}
+.jss426 {
+    padding-top: 10px;
+}
+.jss427 {
+    cursor: pointer;
+    margin: 4px -8px;
+    display: flex;
+    padding: 12px 8px;
+    background: white;
+    align-items: center;
+    border-radius: 8px;
+}
+.jss428 {
+    color: #1A202C;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 16px !important;
+}
+.MuiTypography-root {
+    margin: 0;
+}
+.jss427 {
+    cursor: pointer;
+    margin: 4px -8px;
+    display: flex;
+    padding: 12px 8px;
+    background: white;
+    align-items: center;
+    border-radius: 8px;
+}
+.MuiDivider-root {
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiTypography-colorPrimary {
+    color: #00B6F3;
+}
+.sidenav{
+    display: none;
+    width: 250px;
+    z-index: 99999;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100% !important;
+}

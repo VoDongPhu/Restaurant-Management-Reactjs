@@ -1,0 +1,31 @@
+.slider-component {
+  width: 100%;
+  margin: 12px auto 4px;
+  position: relative;
+  max-width: 1188px;
+  background: white;
+}
+.slider-content {
+  width: 465px !important;
+  cursor: pointer;
+  height: 195px;
+  margin: 12px;
+  position: relative;
+  outline: none;
+  display: inline-block;
+}
+.slider-link {
+  text-decoration: none;
+  color: #00b6f3;
+  margin: 0;
+}
+.slider-img {
+  width: 465px;
+  height: 195px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+.swiper-slide{
+    width: 475px !important ;
+}

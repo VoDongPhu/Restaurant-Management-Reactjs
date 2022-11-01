@@ -1,0 +1,312 @@
+@import "../../format-scss/reset.scss";
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.booking-page {
+  width: 100%;
+  .header-booking-form {
+    // width: 100%;
+    position: relative;
+    img {
+      width: 100%;
+      height: 50vh;
+      object-fit: cover;
+    }
+    .content {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      top: 20vh;
+      left: 0;
+      // transform: translate(100px,100px);
+      h1 {
+        color: #fff;
+        font-size: 2.6em;
+        font-weight: 400;
+      }
+      span {
+        margin-right: 10px;
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+        color: #deb666;
+      }
+    }
+  }
+
+  h1.title {
+    font-size: 2.2em;
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    color: #606060;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+  }
+
+  .body-booking-page {
+    width: 100%;
+    margin-top: 30px;
+
+    // display: flex;
+    // justify-content: end;
+    .left-page {
+      width: 65%;
+      .booking-form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .form-group {
+          width: 47.5%;
+          margin-bottom: 30px;
+          position: relative;
+          label {
+            display: block;
+            font-size: 0.9em;
+            color: #606060;
+            letter-spacing: 1px;
+            font-weight: 400;
+            margin-bottom: 10px;
+          }
+
+          .fa-angle-down {
+            position: absolute;
+            font-size: 14px;
+            color: #606060;
+            right: 8px;
+            top: 60%;
+          }
+
+          input {
+            width: 100%;
+            height: 48px;
+            border: 1px solid #dfdfdf;
+            background-color: #fcfcfc;
+            color: #606060;
+            padding-left: 10px;
+            // &::-webkit-input-placeholder {
+            //   margin-left: 10px;
+            // }
+          }
+
+          select {
+            width: 100%;
+            -webkit-appearance: none;
+            height: 48px;
+            outline: none;
+            border: 1px solid #dfdfdf;
+            background-color: #fcfcfc;
+            color: #606060;
+            cursor: pointer;
+            padding-left: 10px;
+          }
+        }
+        .comment {
+          width: 100%;
+          form {
+            textarea {
+              width: 100%;
+              height: 150px;
+              padding: 10px;
+              box-sizing: border-box;
+              border: 1px solid #dfdfdf;
+              background-color: #fcfcfc;
+              color: #606060;
+              resize: none;
+            }
+          }
+        }
+
+        .date {
+          input {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .right-page {
+      width: 35%;
+      margin-left: 5%;
+      // .special-offer {
+
+      // }
+    }
+  }
+}
+.btn-book {
+  font-size: 0.8em;
+  border-color: #deb666;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 1px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: all ease 0.3s;
+  display: inline-block;
+  line-height: 1.82857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 30px;
+  a {
+    &:hover {
+      background-color: rgb(197, 157, 79);
+      transition: 0.3s all;
+    }
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #deb666;
+    .fa-calendar-days {
+      margin-right: 10px;
+      font-size: 14px;
+    }
+  }
+}
+// Start | for demo
+
+// body {
+//     width: 100%;
+//     min-height: 900px;
+//     margin: 3em auto;
+//     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7cac9+0,92a8d1+100 */
+//     background: rgb(247, 202, 201);
+//     /* Old browsers */
+//     background: -moz-linear-gradient(-45deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+//     /* FF3.6-15 */
+//     background: -webkit-linear-gradient(-45deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+//     /* Chrome10-25,Safari5.1-6 */
+//     background: linear-gradient(135deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+//     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//     /* IE6-9 fallback on horizontal gradient */
+
+//     font-family: 'Roboto Mono';
+//     letter-spacing: 1px;
+// }
+
+//
+// Pure css Select
+// .select {
+//     position: relative;
+//     overflow: hidden;
+//     display: block;
+//     margin: auto;
+//     width: 330px;
+//     height: 100%;
+//     border-bottom: 0px;
+//     border-radius: 3px;
+//     font-size: 12px;
+//     box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, .5);
+
+//     .title,
+//     .placeholder {
+//         position: relative;
+//         display: block;
+//         width: 100%;
+//         height: 100%;
+//         padding: 1.5em 2em;
+//         background: rgba(255, 255, 255, 1);
+//         border-top: 1px solid rgba(0, 0, 0, .05);
+//         cursor: pointer;
+//     }
+//     &>input {
+//         position: absolute;
+//         left: 0px;
+//         top: 0px;
+//         z-index: 1;
+//         width: 100%;
+//         height: 100%;
+//         display: block;
+//         opacity: 0;
+//         cursor: pointer;
+//         &:checked {
+//             ~i.toggle.icon-arrow-down {
+//                 display: none;
+//             }
+//             ~i.toggle.icon-arrow-up {
+//                 display: block;
+//             }
+//             div.options label.option .title {
+//                 display: none!important;
+//             }
+//         }
+//         &:not(:checked) {
+//             z-index: 4;
+//             ~label.option {
+//                 >span.title {
+//                     display: none;
+//                 }
+//             }
+//             ~i.toggle.icon-arrow-up {
+//                 display: none;
+//             }
+//             ~i.toggle.icon-arrow-down {
+//                 display: block;
+//             }
+//         }
+//         &:disabled {
+//             cursor: no-drop;
+//         }
+//     }
+//     &>span.placeholder {
+//         position: relative;
+//         z-index: 0;
+//         display: inline-block;
+//         width: 100%;
+//         color: #999;
+//         border-top: 0px;
+//     }
+//     label.option {
+//         display: block;
+//         overflow: hidden;
+//         z-index: 1;
+//         width: 100%;
+//         transition: all 1s ease-out;
+//         span.title {
+//             position: relative;
+//             z-index: 2;
+//             transition: background .3s ease-out;
+//             i.icon {
+//                 padding-right: 8px;
+//                 color: rgba(146, 168, 209, 1);
+//             }
+//             &:hover {
+//                 color: #fff;
+//                 background: rgba(255, 255, 255, .3);
+//                 box-shadow: inset 0px 1px 0px rgba(0, 0, 0, .1);
+//             }
+//         }
+//         input {
+//             display: none;
+//             &:checked~span.title {
+//                 position: absolute;
+//                 display: block;
+//                 z-index: 3;
+//                 top: 0px;
+//                 font-size: 12px;
+//                 background: #fff;
+//                 border-top: 0px;
+//                 box-shadow: none;
+//                 color: inherit;
+//                 width: 100%;
+//             }
+//             &:disabled {
+//                 &~span.title {
+//                     background: #f9f9f9!important;
+//                     color: #aaa;
+//                     &:hover {
+//                         color: #aaa;
+//                         background: none;
+//                         cursor: no-drop;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// } // Pure css select 2 TOGGLE
