@@ -18,14 +18,14 @@ export default function Footer() {
             <ul class="blog_posts">
               <li>
                 <a href="">Live your myth in Greece</a>
-                <small>MAY 13, 2022</small>
+                <small>September 13, 2022</small>
               </li>
               <li>
-                <a href="">Zent Resort</a>
-                <small>MAY 16, 2022</small>
+                <a href="">GenZ Restaurant</a>
+                <small>September 16, 2022</small>
               </li>
               <li>
-                <a href="/">Zent Resort family party</a>
+                <a href="/">GenZ Restaurant party</a>
                 <small>MAY 15, 2022</small>
               </li>
             </ul>
@@ -55,15 +55,14 @@ export default function Footer() {
             <address>
               <ul class="address_details">
                 <li>
-                  <i class="glyphicon glyphicon-map-marker"></i> Đại học Công
-                  Nghệ Thông Tin, Linh Trung ,Thủ đức
+                  <i class="glyphicon glyphicon-map-marker"></i> 137 Chương Dương , Linh Chiểu , Thủ Đức
                 </li>
                 <li>
                   <i class="glyphicon glyphicon-phone-alt"></i> Phone: +84
-                  0763638074
+                  763638074
                 </li>
                 <li>
-                  <i class="fa fa-fax"></i> Fax: 123 3456
+                  <i class="fa fa-fax"></i> Fax: 0127686868
                 </li>
                 <li>
                   <i class="fa fa-envelope"></i> Email:{" "}
@@ -76,7 +75,7 @@ export default function Footer() {
         <div className="Footer-final">
           <div class="col-md-6 col-sm-6">
             <div class="copyrights">
-              Copyright 2021 <a href="/"> Zent Resort </a> All Rights Reserved.
+              Copyright 2022 <a href="/"> GenZ restaurant </a> All Rights Reserved.
             </div>
           </div>
           <div class="col-md-6 col-sm-6">

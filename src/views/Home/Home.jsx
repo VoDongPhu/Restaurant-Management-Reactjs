@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../../components/Header/index";
 import Footer from "../../components/Footer/index";
-// import Hero from "../../components/Hero";
+import Hero from "../../components/Hero";
 import FlashSale from "../../components/FlashSale";
-// import Slider from "../../components/Slider";
-import Fly from "../../components/Fly";
+import Slider from "../../components/Slider";
+// import Fly from "../../components/Fly";
 import FavoritePlace from "../../components/FavoritePlace";
 import Banner from "../../components/Banner";
 import ButtonCard from "../../components/ButtonCard";
@@ -26,13 +26,13 @@ export default function Home() {
       <Header />
       <main>
         <Banner />
-        {/* <Slider /> */}
+        <Slider />
         <FavoriteRoom />
-        {/* <Hero /> */}
+        <Hero />
         <AwesomeServices />
         <ImageGallery />
         <ButtonScrollTop />
-        <FlashSale />
+        {/* <FlashSale /> */}
         <FavoritePlace />
         {/* <Fly /> */}
         <ButtonCard />
