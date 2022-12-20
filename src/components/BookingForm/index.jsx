@@ -15,7 +15,7 @@ function BookingForm(props) {
     fullname:'',
     emailBook:'',
     phone:'',
-    roomtype:'',
+    Tabletype:'',
     dateArrival : '',
     dateDeparture : '',
     adults :'',
@@ -40,7 +40,7 @@ function BookingForm(props) {
         {/* header-booking-form */}
         <div className="header-booking-form">
           <img
-            src="https://preview.eagle-themes.com/html/zante/images/slider/slider-1.jpg"
+            src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
           <div className="content">
@@ -50,7 +50,7 @@ function BookingForm(props) {
                 <a href="/">Home</a>
               </span>
               <span>/</span>
-              <span>Booking Form</span>
+              <span>Booking Table Form</span>
             </div>
           </div>
         </div>

@@ -80,7 +80,7 @@ const AwesomeServices = (props) => {
                     }}
                     icon="fa-solid fa-bowl-rice"
                   />
-                  Restaurant
+                  Beer
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
@@ -100,7 +100,7 @@ const AwesomeServices = (props) => {
                     }}
                     icon="fa-solid fa-child-reaching"
                   />
-                  Spa - Beauty & Health
+                  Fruit juice
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
@@ -120,7 +120,7 @@ const AwesomeServices = (props) => {
                     }}
                     icon="fa-solid fa-users-viewfinder"
                   />
-                  Conference Room
+                  Many delicious dishes
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
@@ -140,7 +140,7 @@ const AwesomeServices = (props) => {
                     }}
                     icon="fa-solid fa-person-swimming"
                   />
-                  Swimming Pool
+                  Sweet cake
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed

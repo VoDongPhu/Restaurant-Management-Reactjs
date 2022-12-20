@@ -84,22 +84,21 @@ function Contact_Component() {
           <div className="contact-right-content">
             <ul className="contact-info upper">
               <li>
-                <span>ADDRESS:</span> Đại học Công Nghệ Thông Tin, Linh Trung
-                ,Thủ Đức
+                <span>ADDRESS:</span> 135 Chương Dương, Linh Chiểu, Thủ Đức, HCM
               </li>
               <li>
-                <span>EMAIL:</span> example@site.com, contact@site.com
+                <span>EMAIL:</span> xuantam11012001@gmail.com, contact@site.com
               </li>
               <li>
                 <span>WEB:</span> www.site.com
               </li>
               <li>
-                <span>PHONE:</span> +84 (070) <strong>333-4444</strong> , +84
+                <span>PHONE:</span> +84 (076) <strong>363-8074</strong> , +84
                 (090) <strong>999-999</strong>
               </li>
               <li>
                 <span>FAX:</span>
-                <strong>+84 123456789</strong>
+                <strong>+84 127686868</strong>
               </li>
             </ul>
           </div>

@@ -27,8 +27,8 @@ export default function Home() {
       <main>
         <Banner />
         <Slider />
-        <FavoriteRoom />
         <Hero />
+        <FavoriteRoom />
         <AwesomeServices />
         <ImageGallery />
         <ButtonScrollTop />

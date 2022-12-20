@@ -137,7 +137,7 @@ const Header = () => {
                   </a>
                   <a
                     className="main-element link-event link-event-delay single-navbar color-main"
-                    href="/ListRoom"
+                    href=""
                     target="_blank"
                     style={{
                       marginRight: "24px",
@@ -209,7 +209,7 @@ const Header = () => {
                       color: "#ffffff",
                       padding: "10px 0",
                     }}
-                    href="/ListRestaurant"
+                    href=""
                     onMouseLeave={() => onHangleState(setShowNg)}
                     onMouseEnter={() => setShowNg(false)}
                   >
