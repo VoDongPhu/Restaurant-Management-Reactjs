@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="home-main hero-item">
           <span className="home-main">
             <img
-              src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_total_hotel.svg"
+              src="https://cdn.pixabay.com/photo/2014/12/21/23/24/spare-ribs-575310__340.png"
               alt="logo_total_hotel"
               style={{ width: "52px", height: "52px" }}
             />
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="home-main hero-item">
           <span className="home-main">
             <img
-              src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_best_price.svg"
+              src="https://cdn.pixabay.com/photo/2022/11/01/22/56/oktoberfest-7563596__340.png"
               alt="logo_total_hotel"
               style={{ width: "52px", height: "52px" }}
             />

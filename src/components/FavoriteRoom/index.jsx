@@ -23,7 +23,7 @@ function FavoriteRoom() {
   return (
     <div className="favorite_room-container body-container">
       <div className="favorite_room_header">
-        <h2 className="favorite_room_header-title">OUR FAVORITE ROOMS</h2>
+        <h2 className="favorite_room_header-title">OUR TABLE</h2>
       </div>
       <div className="favorite-list" style={{ display: "flex" }}>
         {arr.map((e) => {
@@ -46,10 +46,10 @@ function FavoriteRoom() {
                   </a>
                   <figcaption className="favorite-figcaption">
                     <h4 className="favorite-figcaption-h4">
-                      <a href="/ListRoom">{e?.name}</a>
+                      <a href="">{e?.name}</a>
                     </h4>
                     <span className="f_right">
-                      <a href="/ListRoom" className="button btn_sm btn_blue">
+                      <a href="" className="button btn_sm btn_blue">
                         VIEW DETAILS
                       </a>
                     </span>
@@ -62,7 +62,7 @@ function FavoriteRoom() {
       </div>
       <div className="mt40 a_center" style={{ marginBottom: "50px" }}>
         <a className="button btn_sm btn_yellow" href="/ListRoom">
-          VIEW ROOMS LIST
+          VIEW LIST TABLES
         </a>
       </div>
     </div>

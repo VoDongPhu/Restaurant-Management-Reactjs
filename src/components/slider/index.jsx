@@ -11,31 +11,31 @@ export default function Slider() {
   const arr = [
     {
       id: 1,
-      img: "https://tripi.vn/cdn-cgi/image/width=640,height=640/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FAACLPU8TZV_%2Ftmp%2Fplaytemp4847545985849756299%2FmultipartBody8727373779401190948asTemporaryFile?generation=1649834882934883&alt=media",
+      img: "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 2,
-      img: "https://tripi.vn/cdn-cgi/image/width=640,height=640/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FDCZ9GWBR34_%2Ftmp%2Fplaytemp641779362058268120%2FmultipartBody3327129715363470507asTemporaryFile?generation=1648521131208779&alt=media",
+      img: "https://images.pexels.com/photos/1089932/pexels-photo-1089932.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 3,
-      img: "https://tripi.vn/cdn-cgi/image/width=640,height=640/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2F1HD13PFY96_%2Ftmp%2Fplaytemp1548210514325493357%2FmultipartBody7313762926693915959asTemporaryFile?generation=1649240290567202&alt=media",
+      img: "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 4,
-      img: "https://tripi.vn/cdn-cgi/image/width=640,height=640/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FP1X7ZF7RE6_%2Ftmp%2Fplaytemp3737253869110256423%2FmultipartBody637767143341390660asTemporaryFile?generation=1646880301546996&alt=media",
+      img: "https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 5,
-      img: "https://tripi.vn/cdn-cgi/image/width=640,height=640/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FP1X7ZF7RE6_%2Ftmp%2Fplaytemp3737253869110256423%2FmultipartBody637767143341390660asTemporaryFile?generation=1646880301546996&alt=media",
+      img: "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 6,
-      img: "https://tripi.vn/cdn-cgi/image/width=640,height=640/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2F2H1BQUVN2I_%2Ftmp%2Fplaytemp4332522927599923195%2FmultipartBody783253346416295469asTemporaryFile?generation=1646617475691144&alt=media",
+      img: "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 7,
-      img: 'https://tripi.vn/cdn-cgi/image/width=640,height=640/https://www.googleapis.com/download/storage/v1/b/tourcdn/o/photos%2FVTGSB9P0FR_%2Ftmp%2Fplaytemp3241131477509980588%2FmultipartBody6513803101835553645asTemporaryFile?generation=1649297417238565&alt=media'
+      img: 'https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=600'
     }
   ];
   return (

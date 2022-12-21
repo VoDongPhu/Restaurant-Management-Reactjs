@@ -64,7 +64,7 @@ function Login() {
         <div className="login-left">
           <div className="content">
             <img src={logo1} alt="" />
-            <p className="welcome">Welcome to Resort App</p>
+            <p className="welcome">Welcome to GenZ Restaurant App</p>
             <p className="text-introduce">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac
               nisl tristique, lacinia ipsum tempor, gravida nibh. Mauris odio

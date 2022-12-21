@@ -137,7 +137,7 @@ const Header = () => {
                   </a>
                   <a
                     className="main-element link-event link-event-delay single-navbar color-main"
-                    href="/ListRoom"
+                    href=""
                     target="_blank"
                     style={{
                       marginRight: "24px",
@@ -151,7 +151,7 @@ const Header = () => {
                       padding: "10px 0",
                     }}
                   >
-                    Room <i className="fa-solid fa-angle-down"></i>
+                    Menu <i className="fa-solid fa-angle-down"></i>
                     <div className="ks-position">
                       <div className="home-main ks-drop-down">
                         <div className="home-main  ks-drop-down-main">
@@ -159,35 +159,35 @@ const Header = () => {
                           <div className="home-main btn-ks">
                             <div className="home-main btn-ks-lable">
                               <a
-                                href="/ListRoom"
+                                href="https://bit.ly/3Fnxgfr"
                                 exact="true"
                                 className="btn-ks-lable log-btn btn-type"
                                 // style={{ fontSize: "0.9rem" }}
                               >
-                                Single Room
+                                Main Menu
                               </a>
                             </div>
                           </div>
                           <div className="home-main btn-ks">
                             <div className="home-main btn-ks-lable">
                               <a
-                                href="/ListRoom"
+                                href="https://bit.ly/3Fnxgfr"
                                 exact="true"
                                 className="btn-ks-lable log-btn btn-type"
-                                // style={{ fontSize: "0.9rem" }}
+                              
                               >
-                                Double Room
+                                Drinks
                               </a>
                             </div>
                           </div><div className="home-main btn-ks">
                             <div className="home-main btn-ks-lable">
                               <a
-                                href="/ListRoom"
+                                href=""
                                 exact="true"
                                 className="btn-ks-lable log-btn btn-type"
-                                // style={{ fontSize: "0.9rem" }}
+                               
                               >
-                                Deluxe Room
+                                Sweet food
                               </a>
                             </div>
                           </div>
@@ -209,11 +209,11 @@ const Header = () => {
                       color: "#ffffff",
                       padding: "10px 0",
                     }}
-                    href="/ListRestaurant"
+                    href=""
                     onMouseLeave={() => onHangleState(setShowNg)}
                     onMouseEnter={() => setShowNg(false)}
                   >
-                    Restaurant
+                    Our Restaurant
                     <div className="ks-position"></div>
                   </a>
                   <a
@@ -221,21 +221,6 @@ const Header = () => {
                     style={{ textDecoration: "none" }}
                     href="/contact"
                   >
-                    {/* <svg
-                      width="17"
-                      height="17"
-                      fill="none"
-                      className="svgFillAll"
-                      style={{ stroke: "rgb(26, 32, 44)", marginRight: "8px" }}
-                    >
-                      <path
-                        d="M3.167 1.333H6.5L8.167 5.5 6.083 6.75a9.167 9.167 0 004.167 4.167l1.25-2.084 4.167 1.667v3.333A1.666 1.666 0 0114 15.5 13.333 13.333 0 011.5 3a1.667 1.667 0 011.667-1.667"
-                        stroke="rgb(255, 255, 255)"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg> */}
                     Contact us
                   </a>
                 </div>
@@ -243,7 +228,7 @@ const Header = () => {
                   <div className="btn-book-now">
                   <a href="/booking">
                       <FontAwesomeIcon icon="fa-solid fa-calendar-days" />
-                      BOOK ONLINE
+                      ORDER NOW
                     </a>
                   </div>
 

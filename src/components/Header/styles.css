@@ -179,7 +179,7 @@
 }
 
 .scroll-down .home-navbar-inside .home-navbar-left a:hover {
-    color: #deb666 !important;
+    color: #d8b673 !important;
 }
 
 .scroll-down .home-navbar-inside .home-navbar-right a:hover {
@@ -201,7 +201,7 @@
 
 .ks-drop-down {
     top: 32px;
-    width: 220px;
+    width: 120px;
     border: 1px solid #edf2f7;
     padding: 10px 8px;
     z-index: 1;

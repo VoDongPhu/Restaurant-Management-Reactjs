@@ -10,7 +10,7 @@ export default function FlashSale() {
   const flase_sale = [
     {
       id: 1,
-      img:"https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/single-room.jpg",
+      img:"",
       title: "Single Room",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
@@ -20,7 +20,7 @@ export default function FlashSale() {
     {
       id: 2,
       img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/delux.jpg",
-      title: "Double Room",
+      title: "1 Thùng bia Tiger",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
       sll: "(295)",
@@ -29,7 +29,7 @@ export default function FlashSale() {
     {
       id: 3,
       img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/family.jpg",
-      title: "Family Room",
+      title: "Đại tiệc tôm Hùm",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
       sll: "(295)",
@@ -38,7 +38,7 @@ export default function FlashSale() {
     {
       id: 4,
       img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/honeymoon.jpg",
-      title: "Honey Room",
+      title: "Gỏi Thái Lan",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
       sll: "(295)",
@@ -47,7 +47,7 @@ export default function FlashSale() {
     {
       id: 5,
       img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/king.jpg",
-      title: "King Room",
+      title: "5 chai rượu Chivas",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
       sll: "(295)",
@@ -244,7 +244,7 @@ export default function FlashSale() {
                         <div className="home-main flash_sale-donw">
                           <div className="home-main flash_sale-down-content">
                             <h6 className="home-main flash_sale-title">
-                              Single Room
+                              1 Thùng bia Tiger
                             </h6>
                             <div className="home-main flase_sale-raise">
                               <div className="home-main falsh_sale-raise-star">
