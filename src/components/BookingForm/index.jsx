@@ -11,7 +11,7 @@ BookingForm.propTypes = {};
 
 function BookingForm(props) {
   const [book, setBook] = useState({
-    idUserBooking: localStorage.getItem('idUser'),
+    //idUserBooking: localStorage.getItem('idUser'),
     fullname:'',
     emailBook:'',
     phone:'',
