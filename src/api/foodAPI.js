@@ -16,6 +16,6 @@ export const createNewFood = async (data) => {
 export const deleteFood =  (foodID) => {
   return axios.delete(`${url}delete-food`,{data:{_id:foodID}})
 }
-// export const updateUser = (data) => {
-//   return axios.put(`${url}edit-user/${data._id}`,data)
-// }
+export const updateFood = (data) => {
+  return axios.put(`${url}edit-food/${data._id}`,data)
+}

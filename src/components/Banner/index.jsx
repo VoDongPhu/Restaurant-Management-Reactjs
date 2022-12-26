@@ -12,7 +12,7 @@ function Banner(props) {
       <div className="banner">
         {/* video */}
         <video type="video/mp4" loop muted autoPlay>
-          <source src="https://vod-progressive.akamaized.net/exp=1670130810~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F229%2F15%2F376145612%2F1569354676.mp4~hmac=f089638bd4bc8cb1d3c5a1a64f86165816144e7520412be6c6702bad75947244/vimeo-prod-skyfire-std-us/01/229/15/376145612/1569354676.mp4" />
+          <source src="https://vod-progressive.akamaized.net/exp=1671632785~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F229%2F15%2F376145612%2F1569354676.mp4~hmac=c02007649e9064adf0925b93fe7de4ebbd96110a8fa66d2c7991fc7731c4ca8f/vimeo-prod-skyfire-std-us/01/229/15/376145612/1569354676.mp4" />
           Your browser does not support the video tag.
         </video>
 

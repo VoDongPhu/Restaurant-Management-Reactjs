@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import {deleteFood} from "../../../api/foodAPI"
+import { useNavigate } from "react-router-dom";
 
 function FoodManagement() {
+  let Navigate = useNavigate()
   const [arrFoods, setArrFoods] = useState([]);
   useEffect(() => {
     getData();
@@ -28,6 +30,10 @@ function FoodManagement() {
       console.log(error)
     }
   }
+  const handleEdit =  (food) => {
+    Navigate(`/admin/food/edit-food/${food._id}`)
+   
+  }
  return(
   <div>
    <div className="food-container" >
@@ -48,10 +54,10 @@ function FoodManagement() {
                      <>
                       <tr key={index}>
                         <td>{item.name}</td>
-                        <td>{item.price}</td>
+                        <td>{item.price} đ</td>
                         <td><img  className="image-food" src={item.image}></img></td>
                         <td>
-                          <button className="btn-edit"><i class="fa-solid fa-pencil "></i></button>
+                          <button className="btn-edit" onClick={()=>handleEdit(item)}><i class="fa-solid fa-pencil "></i></button>
                           <button className="btn-delete" onClick={()=>handleDelete(item)}><i class="fa-solid fa-trash "></i></button>
                         </td>
                       </tr>       

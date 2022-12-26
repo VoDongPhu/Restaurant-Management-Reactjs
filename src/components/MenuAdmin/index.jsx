@@ -30,17 +30,17 @@ function MenuAdmin() {
                 </Link>
             </li>
             <li>
-                <a href="">
+                <Link to="/admin/table">
                 <i class="fa-solid fa-table-columns icon"></i>
                
                     <span className="title">Bàn ăn</span>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="">
+                <Link to="/admin/booking">
                    <i class="fa-solid fa-utensils icon"></i> 
                     <span className="title">Đặt bàn</span>
-                </a>
+                </Link>
             </li>
             <li>
                 <a href="">

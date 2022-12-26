@@ -8,7 +8,12 @@ import UserManagement from "./UserManagement";
 import AddUser from "./UserManagement/AddUser";
 import EditUser from "./UserManagement/EditUser";
 import AddFood from "./FoodManagement/AddFood";
-
+import EditFood from "./FoodManagement/EditFood";
+import BookingManagement from "./BookingManagement";
+import DetailBooking from "./BookingManagement/DetailBooking";
+import TableManagement from "./TableManagement"
+import AddTable from "./TableManagement/AddTable";
+import EditTable from "./TableManagement/EditTable";
 function Admin() {
  
  return(
@@ -22,6 +27,12 @@ function Admin() {
             <Route path="user/edit-user/:id" element= {<EditUser />} />
             <Route path="food"  element = {<FoodManagement />} />
             <Route path="food/add-food"  element = {<AddFood />} />
+            <Route path="food/edit-food/:id"  element = {<EditFood />} />
+            <Route path="table"  element = {<TableManagement />} />
+            <Route path="table/add-table"  element = {<AddTable />} />
+            <Route path="table/edit-table/:id"  element = {<EditTable />} />
+            <Route path="booking" element={<BookingManagement />} />
+            <Route path="booking/detail-booking/:id" element={<DetailBooking />} />
           </Routes>
        </div>
    </div>

@@ -9,7 +9,7 @@ function FavoriteRoom() {
   const getData = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:3030/favouriteRoom/getData"
+        "http://localhost:3030/tableType/getData"
       );
       if (res) {
         setArr(res?.data?.data);

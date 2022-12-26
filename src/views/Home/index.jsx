@@ -3,7 +3,7 @@ import Header from "../../components/Header/index";
 import Footer from "../../components/Footer/index";
 import Hero from "../../components/Hero";
 import FlashSale from "../../components/FlashSale";
-import Slider from "../../components/Slider";
+import Slider from "../../components/slider"
 // import Fly from "../../components/Fly";
 import FavoritePlace from "../../components/FavoritePlace";
 import Banner from "../../components/Banner";
