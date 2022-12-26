@@ -10,7 +10,7 @@ export default function FlashSale() {
   const flase_sale = [
     {
       id: 1,
-      img:"",
+      img:"https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&w=600",
       title: "Single Room",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
@@ -19,7 +19,7 @@ export default function FlashSale() {
     },
     {
       id: 2,
-      img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/delux.jpg",
+      img: "https://dvpmarket.com/resources/uploads/images/2019/01/Mieng-ga-hap-la-chanh-vang-ruom.jpg",
       title: "1 Thùng bia Tiger",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
@@ -28,7 +28,7 @@ export default function FlashSale() {
     },
     {
       id: 3,
-      img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/family.jpg",
+      img: "https://images.pexels.com/photos/725992/pexels-photo-725992.jpeg?auto=compress&cs=tinysrgb&w=600",
       title: "Đại tiệc tôm Hùm",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
@@ -37,7 +37,7 @@ export default function FlashSale() {
     },
     {
       id: 4,
-      img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/honeymoon.jpg",
+      img: "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&w=600",
       title: "Gỏi Thái Lan",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
@@ -46,7 +46,7 @@ export default function FlashSale() {
     },
     {
       id: 5,
-      img: "https://tripi.vn/cdn-cgi/image/width=548,height=310/https://preview.eagle-themes.com/html/zante/images/rooms/king.jpg",
+      img: "https://images.pexels.com/photos/340996/pexels-photo-340996.jpeg?auto=compress&cs=tinysrgb&w=600",
       title: "5 chai rượu Chivas",
       diadiem: "Phú Quốc",
       emotion: "Tuyệt vời",
@@ -244,7 +244,7 @@ export default function FlashSale() {
                         <div className="home-main flash_sale-donw">
                           <div className="home-main flash_sale-down-content">
                             <h6 className="home-main flash_sale-title">
-                              1 Thùng bia Tiger
+                              Tiệc siêu giảm giá
                             </h6>
                             <div className="home-main flase_sale-raise">
                               <div className="home-main falsh_sale-raise-star">
@@ -348,7 +348,7 @@ export default function FlashSale() {
                                 </svg>
                               </span>
                               <span className="home-main flase_sale-dd-name">
-                                Phú Quốc
+                               
                               </span>
                             </div>
                             <div className="home-main falsh_sale-tv">
@@ -397,7 +397,7 @@ export default function FlashSale() {
                               <div className="home-main flash_sale-saled-content">
                                 <div className="home-main flash_sale_saled-btn">
                                   <span className="home-main flash_sale-saled-ok">
-                                  Đã bán 0
+                                  Đã bán 10
                                   </span>
                                   <div className="home-main flash_sale-none">
                                     <div className="home-main flasj_sale-line">
@@ -407,7 +407,7 @@ export default function FlashSale() {
                                 </div>
                                 <div className="home-main flase_sale-saled-price">
                                   <span className="home-main flash_sale_price-saled">
-                                  1.449.466đ
+                                  Giảm 10%
                                   </span>
                                   <span className="home-main flash_sale-question">???</span>
                                 </div>

@@ -16,13 +16,13 @@ function ListRoom() {
           alt=""
         />
         <div className="content">
-          <h1>Rooms List View</h1>
+          <h1>List Food</h1>
           <div className="sub-title">
             <span>
               <a href="/">Home</a>
             </span>
             <span>/</span>
-            <span>Rooms List View</span>
+            <span>List Food</span>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ function ListRoom() {
                 <figure>
                   <a href="" className="hover_effect h_link h_blue">
                     <img
-                      src="	https://preview.eagle-themes.com/html/zante/images/rooms/single.jpg"
+                      src="https://dvpmarket.com/resources/uploads/images/2019/01/Mieng-ga-hap-la-chanh-vang-ruom.jpg"
                       className="img-responsive"
                       alt="Image"
                     />
@@ -45,10 +45,9 @@ function ListRoom() {
                 <div className="room_details row-flex">
                   <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
                     <h3>
-                      <a href="room.html"> Single Room </a>
+                      <a href="room.html"> Gà hấp lá chanh </a>
                     </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                       magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
                     </p>
@@ -73,13 +72,13 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> €89,00 </span>
-                      <small className="upper"> per night </small>
+                      <span className="room_price_number"> 180.000 </span>
+                      <small className="upper"> 1 phần </small>
                       <a
                         href="room.html"
                         className="button  btn_blue btn_full upper"
                       >
-                        Book Now
+                        Order
                       </a>
                     </div>
                   </div>
@@ -93,7 +92,7 @@ function ListRoom() {
                 <figure>
                   <a href="" className="hover_effect h_link h_blue">
                     <img
-                      src="https://preview.eagle-themes.com/html/zante/images/rooms/double-room.jpg"
+                      src="https://monngonmoingay.com/wp-content/uploads/2020/03/sup-nam-hai-san-chua-cay-500.jpg"
                       className="img-responsive"
                       alt="Image"
                     />
@@ -104,10 +103,10 @@ function ListRoom() {
                 <div className="room_details row-flex">
                   <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
                     <h3>
-                      <a href=""> Double Room </a>
+                      <a href=""> Súp hải sản </a>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                       magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
                     </p>
@@ -132,13 +131,13 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> €129,00 </span>
-                      <small className="upper"> per night </small>
+                      <span className="room_price_number"> 150.000 </span>
+                      <small className="upper"> 1 Phần </small>
                       <a
                         href=""
                         className="button  btn_blue btn_full upper"
                       >
-                        Book Now
+                       Order 
                       </a>
                     </div>
                   </div>
@@ -152,7 +151,7 @@ function ListRoom() {
                 <figure>
                   <a href="room.html" className="hover_effect h_link h_blue">
                     <img
-                      src="	https://preview.eagle-themes.com/html/zante/images/rooms/deluxe-room.jpg"
+                      src="	https://hd1.hotdeal.vn/images/uploads/2016/Thang%2010/31/302725/302725-nh-hq-rokoko-body-%20%288%29.jpg"
                       className="img-responsive"
                       alt="Image"
                     />
@@ -163,7 +162,65 @@ function ListRoom() {
                 <div className="room_details row-flex">
                   <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
                     <h3>
-                      <a href="room.html"> Deluxe Room </a>
+                      <a href="room.html"> Ba chỉ bò mỹ ướp tiêu đen </a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                    </p>
+                    <div className="room_services">
+                      <i
+                        className="fa fa-coffee"
+                        data-toggle="popover"
+                        data-placement="top"
+                        data-trigger="hover"
+                        data-content="Breakfast Included"
+                        data-original-title="Breakfast"
+                      ></i>
+                      <i
+                        className="fa fa-cutlery"
+                        data-toggle="popover"
+                        data-placement="top"
+                        data-trigger="hover"
+                        data-content="Restaurant"
+                        data-original-title="Zante Restaurant"
+                      ></i>
+                    </div>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-12 room_price">
+                    <div className="room_price_inner">
+                      <span className="room_price_number"> 200.000 </span>
+                      <small className="upper"> 1 phần </small>
+                      <a
+                        href="room.html"
+                        className="button  btn_blue btn_full upper"
+                      >
+                       Order
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article className="rooms_list-item">
+            <div className="rooms_list-item-container">
+              <div className="rooms_list-item-container-left">
+                <figure>
+                  <a href="room.html" className="hover_effect h_link h_blue">
+                    <img
+                      src="	https://cdn.daotaobeptruong.vn/wp-content/uploads/2020/04/cach-nau-lau-de.jpg"
+                      className="img-responsive"
+                      alt="Image"
+                    />
+                  </a>
+                </figure>
+              </div>
+              <div className="rooms_list-item-container-right">
+                <div className="room_details row-flex">
+                  <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
+                    <h3>
+                      <a href="room.html"> Lẫu dê </a>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -191,13 +248,13 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> €149,00 </span>
-                      <small className="upper"> per night </small>
+                      <span className="room_price_number"> 280.000 </span>
+                      <small className="upper"> 1 phần </small>
                       <a
-                        href="room.html"
+                        href=""
                         className="button  btn_blue btn_full upper"
                       >
-                        Book Now
+                        Order
                       </a>
                     </div>
                   </div>
@@ -211,7 +268,7 @@ function ListRoom() {
                 <figure>
                   <a href="room.html" className="hover_effect h_link h_blue">
                     <img
-                      src="	https://preview.eagle-themes.com/html/zante/images/rooms/single.jpg"
+                      src="	https://cdn.daotaobeptruong.vn/wp-content/uploads/2020/12/hau-nuong-pho-mai.jpg"
                       className="img-responsive"
                       alt="Image"
                     />
@@ -222,7 +279,7 @@ function ListRoom() {
                 <div className="room_details row-flex">
                   <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
                     <h3>
-                      <a href="room.html"> Single Room </a>
+                      <a href="room.html"> Hàu nướng phô mai</a>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -250,72 +307,13 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> €89,00 </span>
+                      <span className="room_price_number"> 100.000 </span>
                       <small className="upper"> per night </small>
                       <a
                         href="room.html"
                         className="button  btn_blue btn_full upper"
                       >
-                        Book Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article className="rooms_list-item">
-            <div className="rooms_list-item-container">
-              <div className="rooms_list-item-container-left">
-                <figure>
-                  <a href="room.html" className="hover_effect h_link h_blue">
-                    <img
-                      src="	https://preview.eagle-themes.com/html/zante/images/rooms/single.jpg"
-                      className="img-responsive"
-                      alt="Image"
-                    />
-                  </a>
-                </figure>
-              </div>
-              <div className="rooms_list-item-container-right">
-                <div className="room_details row-flex">
-                  <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
-                    <h3>
-                      <a href="room.html"> Single Room </a>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
-                    </p>
-                    <div className="room_services">
-                      <i
-                        className="fa fa-coffee"
-                        data-toggle="popover"
-                        data-placement="top"
-                        data-trigger="hover"
-                        data-content="Breakfast Included"
-                        data-original-title="Breakfast"
-                      ></i>
-                      <i
-                        className="fa fa-cutlery"
-                        data-toggle="popover"
-                        data-placement="top"
-                        data-trigger="hover"
-                        data-content="Restaurant"
-                        data-original-title="Zante Restaurant"
-                      ></i>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-3 col-xs-12 room_price">
-                    <div className="room_price_inner">
-                      <span className="room_price_number"> €89,00 </span>
-                      <small className="upper"> per night </small>
-                      <a
-                        href="room.html"
-                        className="button  btn_blue btn_full upper"
-                      >
-                        Book Now
+                        Order
                       </a>
                     </div>
                   </div>

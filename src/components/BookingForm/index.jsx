@@ -1,15 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import "./styles.scss";
+import {useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { bookingApi } from "../../api/bookingApi";
 import swal from "sweetalert";
-
 BookingForm.propTypes = {};
 
 function BookingForm(props) {
+  let Navigate = useNavigate()
   const [book, setBook] = useState({
     //idUserBooking: localStorage.getItem('idUser'),
     fullname:'',
@@ -23,16 +23,18 @@ function BookingForm(props) {
     comment :'',
   })
   const bookingOnline = async() =>{
-    try {
-      const res = await bookingApi(book)
-      if(res === true){
-        console.log(res)
-        return swal("Here's a message!", "Success")
-      }
-    } catch (error) {
-      return swal("Here's a message!", "Something wrong")
+    // try {
+    //   const res = await bookingApi(book)
+    //   if(res === true){
+    //     console.log(res)
+    //     return swal("Here's a message!", "Success")
+    //   }
+    // } catch (error) {
+    //   return swal("Here's a message!", "Something wrong")
       
-    }
+    // }
+    swal("Here's a message!", "Success")
+    Navigate('/ListRoom')
   }
   return (
     <div>
@@ -114,11 +116,11 @@ function BookingForm(props) {
 
                   >
                     <option selected disabled>
-                      Room Type
+                      Table type
                     </option>
-                    <option value="Single">Single Room</option>
-                    <option value="Double">Double Room</option>
-                    <option value="Deluxe">Deluxe Room</option>
+                    <option value="Single">Vip Table</option>
+                    <option value="Double">Couple Table</option>
+                    <option value="Deluxe">Universal Table</option>
                   </select>
                 </div>
 
@@ -135,12 +137,12 @@ function BookingForm(props) {
                   />
                 </div>
                 <div className="form-group date date-departure">
-                  <label htmlFor="">Date Departure</label>
+                  <label htmlFor="">Time Arrival</label>
                   <input
                     id="email"
                     name="email"
-                    type="date"
-                    placeholder="Date Departure"
+                    type="string"
+                    placeholder="Time Arrival"
                     className="form-control"
                     onChange={(e) => setBook({...book,dateDeparture: e.target.value})}
 

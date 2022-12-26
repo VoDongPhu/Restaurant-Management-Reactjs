@@ -32,7 +32,7 @@ export default function Home() {
         <AwesomeServices />
         <ImageGallery />
         <ButtonScrollTop />
-        {/* <FlashSale /> */}
+        <FlashSale />
         <FavoritePlace />
         {/* <Fly /> */}
         <ButtonCard />
