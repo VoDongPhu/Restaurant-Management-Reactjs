@@ -46,7 +46,7 @@ function App() {
                         <Route path="food/edit-food/:id" element={<EditFood />} />
                         <Route path="table" element={<TableManagement />} />
                         <Route path="table/add-table" element={<AddTable />} />
-                        <Route path="table/edit-table/:id" element={<AddTable />} />
+                        <Route path="table/edit-table/:id" element={<EditTable />} />
                         <Route path="booking" element={<BookingManagement />} />
                         <Route path="booking/detail-booking/:id" element={<DetailBooking />} />
                     </Route>

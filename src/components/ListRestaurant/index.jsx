@@ -6,7 +6,6 @@ import SweetPagination from "sweetpagination";
 function ListRestaurant() {
   const items = [1, 2, 3, 4, 5, 6, 7];
   const [currentPageData, setCurrentPageData] = useState(new Array(2).fill());
- 
 
   return (
     <div>
@@ -16,13 +15,13 @@ function ListRestaurant() {
           alt=""
         />
         <div className="content">
-          <h1>Restaurant List View</h1>
+          <h1>List Table </h1>
           <div className="sub-title">
             <span>
               <a href="/">Home</a>
             </span>
             <span>/</span>
-            <span>Restaurant List View</span>
+            <span>List Table</span>
           </div>
         </div>
       </div>
@@ -34,7 +33,7 @@ function ListRestaurant() {
                 <figure>
                   <a href="" className="hover_effect h_link h_blue">
                     <img
-                      src="	https://pasgo.vn/Upload/anh-diem-den/hem-quan-hoang-cau-300-12961690845.jpg"
+                      src="	https://images.pexels.com/photos/6479583/pexels-photo-6479583.jpeg?auto=compress&cs=tinysrgb&w=600"
                       className="img-responsive"
                       alt="Image"
                     />
@@ -45,39 +44,17 @@ function ListRestaurant() {
                 <div className="Restaurant_details row-flex">
                   <div className="col-md-9 col-sm-9 col-xs-12 Restaurant_desc">
                     <h3>
-                      <a href=""> Hotpot story </a>
+                      <a href=""> VIP 1 </a>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                       magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
                     </p>
-                    <div className="Restaurant_services">
-                      <i
-                        className="fa fa-coffee"
-                        data-toggle="popover"
-                        data-placement="top"
-                        data-trigger="hover"
-                        data-content="Breakfast Included"
-                        data-original-title="Breakfast"
-                      ></i>
-                      <i
-                        className="fa fa-cutlery"
-                        data-toggle="popover"
-                        data-placement="top"
-                        data-trigger="hover"
-                        data-content="Restaurant"
-                        data-original-title="Zante Restaurant"
-                      ></i>
-                    </div>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
                     <div className="Restaurant_price_inner">
-                    
-                      <a
-                        href=""
-                        className="button  btn_blue btn_full upper"
-                      >
+                      <a href="" className="button  btn_blue btn_full upper">
                         Book Now
                       </a>
                     </div>
@@ -86,6 +63,115 @@ function ListRestaurant() {
               </div>
             </div>
           </article>
+          <article className="Restaurant_list-item">
+            <div className="Restaurant_list-item-container">
+              <div className="Restaurant_list-item-container-left">
+                <figure>
+                  <a href="" className="hover_effect h_link h_blue">
+                    <img
+                      src="https://images.pexels.com/photos/5727942/pexels-photo-5727942.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      className="img-responsive"
+                      alt="Image"
+                    />
+                  </a>
+                </figure>
+              </div>
+              <div className="Restaurant_list-item-container-right">
+                <div className="Restaurant_details row-flex">
+                  <div className="col-md-9 col-sm-9 col-xs-12 Restaurant_desc">
+                    <h3>
+                      <a href=""> VIP 2 </a>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                    </p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
+                    <div className="Restaurant_price_inner">
+                      <a href="" className="button  btn_blue btn_full upper">
+                        Book Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article className="Restaurant_list-item">
+            <div className="Restaurant_list-item-container">
+              <div className="Restaurant_list-item-container-left">
+                <figure>
+                  <a href="" className="hover_effect h_link h_blue">
+                    <img
+                      src="	https://images.pexels.com/photos/4915622/pexels-photo-4915622.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      className="img-responsive"
+                      alt="Image"
+                    />
+                  </a>
+                </figure>
+              </div>
+              <div className="Restaurant_list-item-container-right">
+                <div className="Restaurant_details row-flex">
+                  <div className="col-md-9 col-sm-9 col-xs-12 Restaurant_desc">
+                    <h3>
+                      <a href=""> VIP 3 </a>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                    </p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
+                    <div className="Restaurant_price_inner">
+                      <a href="" className="button  btn_blue btn_full upper">
+                        Book Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article className="Restaurant_list-item">
+            <div className="Restaurant_list-item-container">
+              <div className="Restaurant_list-item-container-left">
+                <figure>
+                  <a href="" className="hover_effect h_link h_blue">
+                    <img
+                      src="https://images.pexels.com/photos/4997894/pexels-photo-4997894.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      className="img-responsive"
+                      alt="Image"
+                    />
+                  </a>
+                </figure>
+              </div>
+              <div className="Restaurant_list-item-container-right">
+                <div className="Restaurant_details row-flex">
+                  <div className="col-md-9 col-sm-9 col-xs-12 Restaurant_desc">
+                    <h3>
+                      <a href=""> VIP 4 </a>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                    </p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
+                    <div className="Restaurant_price_inner">
+                      <a href="" className="button  btn_blue btn_full upper">
+                        Book Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          
         </div>
         <div className="center">
           <div className="center">
@@ -103,7 +189,6 @@ function ListRestaurant() {
                 navigation={true}
               />
             </div>
-           
           </div>
         </div>
       </main>

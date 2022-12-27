@@ -45,6 +45,7 @@
         line-height: 1.2;
         letter-spacing: 0.5px;
         margin-bottom: 20px;
+        margin-left: 20%;
     }
     .body-booking-page {
         width: 100%;
@@ -53,6 +54,7 @@
         // justify-content: end;
         .left-page {
             width: 65%;
+            margin-left: 50px;
             .booking-form {
                 display: flex;
                 justify-content: space-between;
@@ -146,6 +148,7 @@
     vertical-align: middle;
     text-decoration: none;
     margin-top: 30px;
+    margin-left: 20%;
     a {
         &:hover {
             background-color: rgb(197, 157, 79);

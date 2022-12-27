@@ -35,7 +35,7 @@ function FavoriteRoom() {
                   style={{ position: "relative" }}
                 >
                   <div className="favorite-price">
-                    {e?.price} <span>/ night</span>
+                    {e?.price} <span>/ cọc</span>
                   </div>
                   <a className="hover-effect">
                     <img
@@ -61,9 +61,9 @@ function FavoriteRoom() {
         })}
       </div>
       <div className="mt40 a_center" style={{ marginBottom: "50px" }}>
-        {/* <a className="button btn_sm btn_yellow" href="/ListRoom">
+        <a className="button btn_sm btn_yellow" href="/ListRestaurant">
           VIEW LIST TABLES
-        </a> */}
+        </a>
       </div>
     </div>
   );

@@ -42,7 +42,7 @@ function BookingForm(props) {
         {/* header-booking-form */}
         <div className="header-booking-form">
           <img
-            src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="https://img.lovepik.com/photo/20211118/medium/lovepik-gourmet-background-picture_400152283.jpg"
             alt=""
           />
           <div className="content">
@@ -105,7 +105,7 @@ function BookingForm(props) {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="">Room Type</label>
+                  <label htmlFor="">Table Type</label>
                   <FontAwesomeIcon icon="fa-solid fa-angle-down" />
                   <select
                     name="booking-roomtype"
@@ -141,10 +141,10 @@ function BookingForm(props) {
                   <input
                     id="email"
                     name="email"
-                    type="string"
-                    placeholder="Time Arrival"
+                    type="time"
+                    placeholder=""
                     className="form-control"
-                    onChange={(e) => setBook({...book,dateDeparture: e.target.value})}
+                    onChange={(e) => setBook({...book,timeArrival: e.target.value})}
 
                   />
                 </div>

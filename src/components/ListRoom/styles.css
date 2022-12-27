@@ -240,7 +240,8 @@
 .center {
     text-align: center;
 }
-.button.book{
+
+.button.book {
     background: #de9e66;
     border-color: #de9466;
     color: #fff;
@@ -248,5 +249,10 @@
     width: 30%;
     border-radius: 10px;
     /* vertical-align: middle; */
-    cursor: pointer;   
+    cursor: pointer;
+}
+
+.button.book:hover {
+    background-color: rgb(245, 172, 26);
+    transition: 0.3s all;
 }
