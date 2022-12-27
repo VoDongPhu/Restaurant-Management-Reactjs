@@ -1,18 +1,21 @@
 import React from "react";
 import { useState } from "react";
 import "./styles.css";
+import swal from "sweetalert";
 import SweetPagination from "sweetpagination";
+import { Navigate } from "react-router-dom";
 
 function ListRoom() {
   const items = [1, 2, 3, 4, 5, 6, 7];
   const [currentPageData, setCurrentPageData] = useState(new Array(2).fill());
- 
-
+  const handleBook = () => {
+    swal("Booking Succefull!","Please Pay!")
+  }
   return (
     <div>
       <div className="header-booking-form">
         <img
-          src="	https://preview.eagle-themes.com/html/zante/images/slider/slider-1.jpg"
+          src="https://vietnamtravel.com/images/2020/10/vietnamese-cuisine3.jpg"
           alt=""
         />
         <div className="content">
@@ -47,7 +50,8 @@ function ListRoom() {
                     <h3>
                       <a href="room.html"> Gà hấp lá chanh </a>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                       magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
                     </p>
@@ -72,8 +76,8 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> 180.000 </span>
-                      <small className="upper"> 1 phần </small>
+                      <span className="room_price_number"> 180.000</span>
+                      {/* <small className="upper"> 1 phần </small>  */}
                       <a
                         href="room.html"
                         className="button  btn_blue btn_full upper"
@@ -106,7 +110,7 @@ function ListRoom() {
                       <a href=""> Súp hải sản </a>
                     </h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                       magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
                     </p>
@@ -131,13 +135,10 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> 150.000 </span>
-                      <small className="upper"> 1 Phần </small>
-                      <a
-                        href=""
-                        className="button  btn_blue btn_full upper"
-                      >
-                       Order 
+                      <span className="room_price_number"> 150.000</span>
+                      {/* <small className="upper"> 1 Phần </small> */}
+                      <a href="" className="button  btn_blue btn_full upper">
+                        Order
                       </a>
                     </div>
                   </div>
@@ -162,9 +163,10 @@ function ListRoom() {
                 <div className="room_details row-flex">
                   <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
                     <h3>
-                      <a href="room.html"> Ba chỉ bò mỹ ướp tiêu đen </a>
+                      <a href="room.html"> Ba chỉ bò mỹ ướp tiêu đen</a>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                       magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
                     </p>
@@ -189,13 +191,13 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> 200.000 </span>
-                      <small className="upper"> 1 phần </small>
+                      <span className="room_price_number"> 200.000</span>
+                      {/* <small className="upper"> 1 phần </small> */}
                       <a
                         href="room.html"
                         className="button  btn_blue btn_full upper"
                       >
-                       Order
+                        Order
                       </a>
                     </div>
                   </div>
@@ -248,12 +250,9 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
-                      <span className="room_price_number"> 280.000 </span>
-                      <small className="upper"> 1 phần </small>
-                      <a
-                        href=""
-                        className="button  btn_blue btn_full upper"
-                      >
+                      <span className="room_price_number"> 280.000</span>
+                      {/* <small className="upper"> 1 phần </small> */}
+                      <a href="" className="button  btn_blue btn_full upper">
                         Order
                       </a>
                     </div>
@@ -307,8 +306,124 @@ function ListRoom() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div className="room_price_inner">
+                      <span className="room_price_number"> 100.000</span>
+                      {/* <small className="upper"> per night </small> */}
+                      <a
+                        href="room.html"
+                        className="button  btn_blue btn_full upper"
+                      >
+                        Order
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article><article className="rooms_list-item">
+            <div className="rooms_list-item-container">
+              <div className="rooms_list-item-container-left">
+                <figure>
+                  <a href="room.html" className="hover_effect h_link h_blue">
+                    <img
+                      src="	https://cdn.daotaobeptruong.vn/wp-content/uploads/2020/12/hau-nuong-pho-mai.jpg"
+                      className="img-responsive"
+                      alt="Image"
+                    />
+                  </a>
+                </figure>
+              </div>
+              <div className="rooms_list-item-container-right">
+                <div className="room_details row-flex">
+                  <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
+                    <h3>
+                      <a href="room.html"> Hàu nướng phô mai</a>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                    </p>
+                    <div className="room_services">
+                      <i
+                        className="fa fa-coffee"
+                        data-toggle="popover"
+                        data-placement="top"
+                        data-trigger="hover"
+                        data-content="Breakfast Included"
+                        data-original-title="Breakfast"
+                      ></i>
+                      <i
+                        className="fa fa-cutlery"
+                        data-toggle="popover"
+                        data-placement="top"
+                        data-trigger="hover"
+                        data-content="Restaurant"
+                        data-original-title="Zante Restaurant"
+                      ></i>
+                    </div>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-12 room_price">
+                    <div className="room_price_inner">
+                      <span className="room_price_number"> 100.000</span>
+                      {/* <small className="upper"> per night </small> */}
+                      <a
+                        href="room.html"
+                        className="button  btn_blue btn_full upper"
+                      >
+                        Order
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article><article className="rooms_list-item">
+            <div className="rooms_list-item-container">
+              <div className="rooms_list-item-container-left">
+                <figure>
+                  <a href="room.html" className="hover_effect h_link h_blue">
+                    <img
+                      src="	https://cdn.daotaobeptruong.vn/wp-content/uploads/2020/12/hau-nuong-pho-mai.jpg"
+                      className="img-responsive"
+                      alt="Image"
+                    />
+                  </a>
+                </figure>
+              </div>
+              <div className="rooms_list-item-container-right">
+                <div className="room_details row-flex">
+                  <div className="col-md-9 col-sm-9 col-xs-12 room_desc">
+                    <h3>
+                      <a href="room.html"> Hàu nướng phô mai</a>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                    </p>
+                    <div className="room_services">
+                      <i
+                        className="fa fa-coffee"
+                        data-toggle="popover"
+                        data-placement="top"
+                        data-trigger="hover"
+                        data-content="Breakfast Included"
+                        data-original-title="Breakfast"
+                      ></i>
+                      <i
+                        className="fa fa-cutlery"
+                        data-toggle="popover"
+                        data-placement="top"
+                        data-trigger="hover"
+                        data-content="Restaurant"
+                        data-original-title="Zante Restaurant"
+                      ></i>
+                    </div>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-12 room_price">
+                    <div className="room_price_inner">
                       <span className="room_price_number"> 100.000 </span>
-                      <small className="upper"> per night </small>
+                      {/* <small className="upper"> per night </small> */}
                       <a
                         href="room.html"
                         className="button  btn_blue btn_full upper"
@@ -322,6 +437,7 @@ function ListRoom() {
             </div>
           </article>
         </div>
+
         <div className="center">
           <div className="center">
             <div>
@@ -330,15 +446,16 @@ function ListRoom() {
                   <h3>{item}</h3>
                 </div>
               ))} */}
-
-              <SweetPagination
+              <button onClick={handleBook}  className="button  book">
+                BOOK
+              </button>
+              {/* <SweetPagination
                 currentPageData={setCurrentPageData}
                 dataPerPage={1}
                 getData={items}
                 navigation={true}
-              />
+              /> */}
             </div>
-           
           </div>
         </div>
       </main>
