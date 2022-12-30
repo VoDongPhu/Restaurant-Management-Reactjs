@@ -33,8 +33,8 @@ function BookingForm(props) {
     //   return swal("Here's a message!", "Something wrong")
       
     // }
-    swal("Here's a message!", "Success")
-    Navigate('/ListRoom')
+    swal("Here's a message!", "Please choose food!")
+    Navigate('/booking-food')
   }
   return (
     <div>

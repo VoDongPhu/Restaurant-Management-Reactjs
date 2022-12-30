@@ -256,3 +256,7 @@
     background-color: rgb(245, 172, 26);
     transition: 0.3s all;
 }
+.button.order {
+    margin-left: 20px;
+    margin-top: 10px;
+}
