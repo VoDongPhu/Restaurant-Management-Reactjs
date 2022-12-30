@@ -49,7 +49,7 @@ function FavoriteRoom() {
                       <a href="">{e?.name}</a>
                     </h4>
                     <span className="f_right">
-                      <a href="" className="button btn_sm btn_blue">
+                      <a href="/Booking" className="button btn_sm btn_blue">
                         VIEW DETAILS
                       </a>
                     </span>

@@ -174,18 +174,17 @@ const Header = () => {
                                 href="https://bit.ly/3Fnxgfr"
                                 exact="true"
                                 className="btn-ks-lable log-btn btn-type"
-                              
                               >
                                 Drinks
                               </a>
                             </div>
-                          </div><div className="home-main btn-ks">
+                          </div>
+                          <div className="home-main btn-ks">
                             <div className="home-main btn-ks-lable">
                               <a
                                 href=""
                                 exact="true"
                                 className="btn-ks-lable log-btn btn-type"
-                               
                               >
                                 Sweet food
                               </a>
@@ -195,26 +194,12 @@ const Header = () => {
                       </div>
                     </div>
                   </a>
-
                   <a
-                    className="main-element link-event link-event-delay single-navbar color-main"
-                    target="_blank"
-                    style={{
-                      marginRight: "24px",
-                      textDecoration: "none",
-                      position: "relative",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0 4px",
-                      color: "#ffffff",
-                      padding: "10px 0",
-                    }}
-                    href=""
-                    onMouseLeave={() => onHangleState(setShowNg)}
-                    onMouseEnter={() => setShowNg(false)}
+                    className="main-element link-event link-event-delay home-header-gift color-main icon-main"
+                    style={{ textDecoration: "none" }}
+                    href="/Aboutus"
                   >
                     Our Restaurant
-                    <div className="ks-position"></div>
                   </a>
                   <a
                     className="main-element link-event link-event-delay home-header-gift color-main icon-main"
@@ -226,7 +211,7 @@ const Header = () => {
                 </div>
                 <div className="home main home-navbar-right">
                   <div className="btn-book-now">
-                  <a href="/booking">
+                    <a href="/booking">
                       <FontAwesomeIcon icon="fa-solid fa-calendar-days" />
                       ORDER NOW
                     </a>

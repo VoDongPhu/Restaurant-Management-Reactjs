@@ -4,6 +4,7 @@ import Register from "./views/Register/index";
 //import Layout from './components/Layout/Layout';
 import Home from "./views/Home";
 import Contact from "./views/Contact";
+import Aboutus from "./views/Aboutus";
 import Hotel from "./views/Hotel";
 import Booking from "./views/Booking";
 import "../src/fontawasome.js";
@@ -23,36 +24,86 @@ import DetailBooking from "./views/Admin/BookingManagement/DetailBooking";
 import TableManagement from "./views/Admin/TableManagement";
 import AddTable from "./views/Admin/TableManagement/AddTable";
 import EditTable from "./views/Admin/TableManagement/EditTable";
+
 function App() {
-    return ( 
-        
-        <Router>
-            <Routes>
-                     <Route path="/" element={<Home />}/>
-                    <Route path="/contact" element={<Contact />}/>
-                    <Route path="/hotel" element={<Hotel />}/>
-                    <Route path="/register" element={<Register />}/>
-                    <Route path="/login" element={<Login />}/>
-                    <Route path="/changePassword" element={<ChangePassword />}/>
-                    <Route path="/booking" element={<Booking />}/>
-                    <Route path="/booking-food" element={<ListRoom />}/>
-                    <Route path="/ListRestaurant" element={<ListRestaurant />}/>
-                    < Route path="/admin" element={<Admin />}>
-                        <Route path="user" element={<UserManagement />} />
-                        <Route path="user/add-user" element={<AddUser />} />
-                        <Route path="user/edit-user/:id" element={<EditUser />} />
-                        <Route path="food" element={<FoodManagement />} />
-                        <Route path="food/add-food" element={<AddFood/>} />
-                        <Route path="food/edit-food/:id" element={<EditFood />} />
-                        <Route path="table" element={<TableManagement />} />
-                        <Route path="table/add-table" element={<AddTable />} />
-                        <Route path="table/edit-table/:id" element={<EditTable />} />
-                        <Route path="booking" element={<BookingManagement />} />
-                        <Route path="booking/detail-booking/:id" element={<DetailBooking />} />
-                    </Route>
-                  
-            </Routes>
-        </Router>
+    return (
+
+        <
+        Router >
+        <
+        Routes >
+        <
+        Route path = "/"
+        element = { < Home / > }
+        /> <
+        Route path = "/contact"
+        element = { < Contact / > }
+        /> <
+        Route path = "/AboutUs"
+        element = { < Aboutus / > }
+        /> <
+        Route path = "/hotel"
+        element = { < Hotel / > }
+        /> <
+        Route path = "/register"
+        element = { < Register / > }
+        /> <
+        Route path = "/login"
+        element = { < Login / > }
+        /> <
+        Route path = "/changePassword"
+        element = { < ChangePassword / > }
+        /> <
+        Route path = "/booking"
+        element = { < Booking / > }
+        /> <
+        Route path = "/booking-food"
+        element = { < ListRoom / > }
+        /> <
+        Route path = "/ListRestaurant"
+        element = { < ListRestaurant / > }
+        /> <
+        Route path = "/admin"
+        element = { < Admin / > } >
+        <
+        Route path = "user"
+        element = { < UserManagement / > }
+        /> <
+        Route path = "user/add-user"
+        element = { < AddUser / > }
+        /> <
+        Route path = "user/edit-user/:id"
+        element = { < EditUser / > }
+        /> <
+        Route path = "food"
+        element = { < FoodManagement / > }
+        /> <
+        Route path = "food/add-food"
+        element = { < AddFood / > }
+        /> <
+        Route path = "food/edit-food/:id"
+        element = { < EditFood / > }
+        /> <
+        Route path = "table"
+        element = { < TableManagement / > }
+        /> <
+        Route path = "table/add-table"
+        element = { < AddTable / > }
+        /> <
+        Route path = "table/edit-table/:id"
+        element = { < EditTable / > }
+        /> <
+        Route path = "booking"
+        element = { < BookingManagement / > }
+        /> <
+        Route path = "booking/detail-booking/:id"
+        element = { < DetailBooking / > }
+        /> <
+        /Route>
+
+        <
+        /Routes> <
+        /Router>
 
         // <
         // Router >
@@ -90,10 +141,10 @@ function App() {
         // element = { < Admin / > }
         // 
         // /> <
-       
+
         // /Routes> <
         // /Router> 
-        
+
     );
 }
 

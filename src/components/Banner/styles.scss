@@ -3,6 +3,11 @@
     width: 100%;
     height: 100vh;
     margin-bottom: 50px;
+    img {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+    }
     video {
         position: absolute;
         z-index: -100;
