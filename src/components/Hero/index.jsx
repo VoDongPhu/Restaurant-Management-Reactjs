@@ -13,10 +13,9 @@ export default function Hero() {
             />
           </span>
           <div className="home-main hero-item-content">
-            <span className="home-main">Hơn 8000+ khách sạn dọc Việt Nam</span>
+            <span className="home-main">Rất nhiều món ngon đang chờ bạn</span>
             <span className="home-main hero-item-content-main">
-              Hàng nghìn khách sạn, đặc biệt là 4 sao và 5 sao, cho phép bạn
-              thoải mái lựa chọn, giá cạnh tranh, phong phú.
+              Hàng trăm món ăn ngon, giá cạnh tranh, phong phú.
             </span>
           </div>
         </div>
@@ -29,9 +28,9 @@ export default function Hero() {
             />
           </span>
           <div className="home-main hero-item-content">
-            <span className="home-main">Giá tốt sát ngày</span>
+            <span className="home-main">Rất nhiều loại đồ uống</span>
             <span className="home-main hero-item-content-main">
-              Cam kết giá tốt nhất khi đặt gần ngày cho chuyến đi của bạn.
+              Cam kết chất lượng, đem đến trải nghiệm tốt nhất cho bạn
             </span>
           </div>
         </div>

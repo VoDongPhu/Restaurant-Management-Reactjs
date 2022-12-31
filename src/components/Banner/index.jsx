@@ -13,7 +13,7 @@ function Banner(props) {
         {/* video */}
         {!props.isContact ? (
           <video type="video/mp4" loop muted autoPlay>
-            <source src="https://vod-progressive.akamaized.net/exp=1672437720~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2874%2F25%2F639372358%2F2930217265.mp4~hmac=f1977efa25fc5b372bf4e027bbeeb9e32a8ec358c4e18a536256252685c355ee/vimeo-prod-skyfire-std-us/01/2874/25/639372358/2930217265.mp4" />
+            <source src="https://vod-progressive.akamaized.net/exp=1672489193~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2874%2F25%2F639372358%2F2930217265.mp4~hmac=2c0b31762505c378db1dfd7c216002c086f75e8075f98867ac6e0df2e343a193/vimeo-prod-skyfire-std-us/01/2874/25/639372358/2930217265.mp4" />
             Your browser does not support the video tag.
           </video> ) : (
           <img

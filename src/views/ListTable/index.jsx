@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import RestaurantList from "../../components/ListRestaurant"
-function ListRestaurant() {
+import RestaurantList from "../../components/ListTable"
+function ListTable() {
   return (
     <div className="w-screen overflow-hidden relative home-component home-main">
-      <Header />
+    
       <main>
         <RestaurantList />
       </main>
@@ -14,4 +14,4 @@ function ListRestaurant() {
   );
 }
 
-export default ListRestaurant;
+export default ListTable;

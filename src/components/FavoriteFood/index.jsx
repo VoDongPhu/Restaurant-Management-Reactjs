@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-export default function FavoritePlace() {
+export default function FavoriteFood() {
   return (
     <div className="home-main favorite-component">
       <div className="home-main favorite-component-content">

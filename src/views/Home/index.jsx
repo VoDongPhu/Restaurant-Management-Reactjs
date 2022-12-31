@@ -5,10 +5,10 @@ import Hero from "../../components/Hero";
 import FlashSale from "../../components/FlashSale";
 import Slider from "../../components/slider"
 // import Fly from "../../components/Fly";
-import FavoritePlace from "../../components/FavoritePlace";
+import FavoriteFood from "../../components/FavoriteFood";
 import Banner from "../../components/Banner";
 import ButtonCard from "../../components/ButtonCard";
-import FavoriteRoom from "../../components/FavoriteRoom";
+import Ourtable from "../../components/Ourtable";
 import ImageGallery from "../../components/ImageGallery";
 import AwesomeServices from "../../components/AwesomeServices";
 import ButtonScrollTop from "../../components/ButtonScrollTop";
@@ -28,12 +28,12 @@ export default function Home() {
         <Banner />
         <Slider />
         <Hero />
-        <FavoriteRoom />
+        <Ourtable />
         <AwesomeServices />
         <ImageGallery />
         <ButtonScrollTop />
         <FlashSale />
-        <FavoritePlace />
+        <FavoriteFood />
         {/* <Fly /> */}
         <ButtonCard />
       </main>

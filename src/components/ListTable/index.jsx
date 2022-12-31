@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./styles.css";
 import SweetPagination from "sweetpagination";
 
-function ListRestaurant() {
+function ListTable() {
   const items = [1, 2, 3, 4, 5, 6, 7];
   const [currentPageData, setCurrentPageData] = useState(new Array(2).fill());
 
@@ -54,7 +54,7 @@ function ListRestaurant() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
                     <div className="Restaurant_price_inner">
-                      <a href="" className="button  btn_blue btn_full upper">
+                      <a href="/booking" className="button  btn_blue btn_full upper">
                         Book Now
                       </a>
                     </div>
@@ -90,7 +90,7 @@ function ListRestaurant() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
                     <div className="Restaurant_price_inner">
-                      <a href="" className="button  btn_blue btn_full upper">
+                      <a href="/booking" className="button  btn_blue btn_full upper">
                         Book Now
                       </a>
                     </div>
@@ -126,7 +126,7 @@ function ListRestaurant() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
                     <div className="Restaurant_price_inner">
-                      <a href="" className="button  btn_blue btn_full upper">
+                      <a href="/booking" className="button  btn_blue btn_full upper">
                         Book Now
                       </a>
                     </div>
@@ -162,7 +162,7 @@ function ListRestaurant() {
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-12 Restaurant_price">
                     <div className="Restaurant_price_inner">
-                      <a href="" className="button  btn_blue btn_full upper">
+                      <a href="/booking" className="button  btn_blue btn_full upper">
                         Book Now
                       </a>
                     </div>
@@ -196,4 +196,4 @@ function ListRestaurant() {
   );
 }
 
-export default ListRestaurant;
+export default ListTable;

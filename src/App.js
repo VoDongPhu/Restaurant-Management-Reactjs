@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./views/Login/index";
 import Register from "./views/Register/index";
-//import Layout from './components/Layout/Layout';
+import Payment from "./views/Payment";
 import Home from "./views/Home";
 import Contact from "./views/Contact";
 import Aboutus from "./views/Aboutus";
 import Hotel from "./views/Hotel";
 import Booking from "./views/Booking";
 import "../src/fontawasome.js";
-import ListRoom from "./views/ListRoom";
-import ListRestaurant from "./views/ListRestaurant";
+import ListFood from "./views/ListFood";
+import ListTable from "./views/ListTable";
 import "./App.css";
 import ChangePassword from "./views/ChangePassword";
 import Admin from "./views/Admin";
@@ -26,125 +26,83 @@ import AddTable from "./views/Admin/TableManagement/AddTable";
 import EditTable from "./views/Admin/TableManagement/EditTable";
 
 function App() {
-    return (
-
-        <
+    return ( <
         Router >
         <
         Routes >
         <
         Route path = "/"
         element = { < Home / > }
-        /> <
+        />{" "} <
         Route path = "/contact"
         element = { < Contact / > }
-        /> <
+        />{" "} <
+        Route path = "/Payment"
+        element = { < Payment / > }
+        />{" "} <
         Route path = "/AboutUs"
         element = { < Aboutus / > }
-        /> <
+        />{" "} <
         Route path = "/hotel"
         element = { < Hotel / > }
-        /> <
+        />{" "} <
         Route path = "/register"
         element = { < Register / > }
-        /> <
+        />{" "} <
         Route path = "/login"
         element = { < Login / > }
-        /> <
+        />{" "} <
         Route path = "/changePassword"
         element = { < ChangePassword / > }
-        /> <
+        />{" "} <
         Route path = "/booking"
         element = { < Booking / > }
-        /> <
+        />{" "} <
         Route path = "/booking-food"
-        element = { < ListRoom / > }
-        /> <
-        Route path = "/ListRestaurant"
-        element = { < ListRestaurant / > }
-        /> <
+        element = { < ListFood / > }
+        />{" "} <
+        Route path = "/ListTable"
+        element = { < ListTable / > }
+        />{" "} <
         Route path = "/admin"
         element = { < Admin / > } >
         <
         Route path = "user"
         element = { < UserManagement / > }
-        /> <
+        />{" "} <
         Route path = "user/add-user"
         element = { < AddUser / > }
-        /> <
+        />{" "} <
         Route path = "user/edit-user/:id"
         element = { < EditUser / > }
-        /> <
+        />{" "} <
         Route path = "food"
         element = { < FoodManagement / > }
-        /> <
+        />{" "} <
         Route path = "food/add-food"
         element = { < AddFood / > }
-        /> <
+        />{" "} <
         Route path = "food/edit-food/:id"
         element = { < EditFood / > }
-        /> <
+        />{" "} <
         Route path = "table"
         element = { < TableManagement / > }
-        /> <
+        />{" "} <
         Route path = "table/add-table"
         element = { < AddTable / > }
-        /> <
+        />{" "} <
         Route path = "table/edit-table/:id"
         element = { < EditTable / > }
-        /> <
+        />{" "} <
         Route path = "booking"
         element = { < BookingManagement / > }
-        /> <
+        />{" "} <
         Route path = "booking/detail-booking/:id"
         element = { < DetailBooking / > }
-        /> <
-        /Route>
-
-        <
-        /Routes> <
+        />{" "} <
+        /Route> <
+        /Routes>{" "} <
         /Router>
-
-        // <
-        // Router >
-        // <
-        // Routes >
-        // <
-        // Route path = "/"
-        // element = { < Home / > }
-        // /> <
-        // Route path = "/contact"
-        // element = { < Contact / > }
-        // /> <
-        // Route path = "/hotel"
-        // element = { < Hotel / > }
-        // /> <
-        // Route path = "/register"
-        // element = { < Register / > }
-        // /> <
-        // Route path = "/login"
-        // element = { < Login / > }
-        // /> <
-        // Route path = "/changePassword"
-        // element = { < ChangePassword / > }
-        // /> <
-        // Route path = "/booking"
-        // element = { < Booking / > }
-        // /> <
-        // Route path = "/ListRoom"
-        // element = { < ListRoom / > }
-        // /> <
-        // Route path = "/ListRestaurant"
-        // element = { < ListRestaurant / > }
-        // /> <
-        // Route  path = "/admin"
-        // element = { < Admin / > }
-        // 
-        // /> <
-
-        // /Routes> <
-        // /Router> 
-
     );
 }
 

@@ -1,18 +1,18 @@
 import React from "react";
-import Header from "../../components/Header";
-import BookingForm from "../../components/BookingForm";
+import Payment_Component from "../../components/Payment";
 import Footer from "../../components/Footer";
 
-function Contact() {
+function Payment() {
   return (
     <div className="w-screen overflow-hidden relative home-component home-main">
       
       <main>
-        <BookingForm />
+          
+          <Payment_Component />
       </main>
       <Footer />
     </div>
   );
 }
 
-export default Contact;
+export default Payment;

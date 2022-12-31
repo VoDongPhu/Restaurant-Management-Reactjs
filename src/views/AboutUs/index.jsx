@@ -6,9 +6,9 @@ import Header from "../../components/Header";
 function Aboutus() {
   return (
     <div className="w-screen overflow-hidden relative home-component home-main">
-      <Header />
+      {/* <Header /> */}
       <main>
-      <Banner isContact = {true}  />
+      {/* <Banner isContact = {true}  /> */}
       <Aboutus_Component />
       </main>
       <Footer />

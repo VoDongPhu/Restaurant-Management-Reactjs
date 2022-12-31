@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./styles.css";
-function FavoriteRoom() {
+function Ourtable() {
   const [arr, setArr] = useState([]);
   useEffect(() => {
     getData();
@@ -50,7 +50,7 @@ function FavoriteRoom() {
                     </h4>
                     <span className="f_right">
                       <a href="/Booking" className="button btn_sm btn_blue">
-                        VIEW DETAILS
+                        Book Now
                       </a>
                     </span>
                   </figcaption>
@@ -61,7 +61,7 @@ function FavoriteRoom() {
         })}
       </div>
       <div className="mt40 a_center" style={{ marginBottom: "50px" }}>
-        <a className="button btn_sm btn_yellow" href="/ListRestaurant">
+        <a className="button btn_sm btn_yellow" href="/ListTable">
           VIEW LIST TABLES
         </a>
       </div>
@@ -69,4 +69,4 @@ function FavoriteRoom() {
   );
 }
 
-export default FavoriteRoom;
+export default Ourtable;

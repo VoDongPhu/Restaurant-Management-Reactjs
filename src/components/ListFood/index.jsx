@@ -2,12 +2,13 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./styles.css";
 import swal from "sweetalert";
+import {useNavigate } from "react-router-dom";
 import axios from "axios";
 import SweetPagination from "sweetpagination";
-import { Navigate } from "react-router-dom";
 import { useInsertionEffect } from "react";
 
-function ListRoom() {
+function ListFood() {
+   let Navigate = useNavigate()
   const items = [1, 2, 3, 4, 5, 6, 7];
   const [currentPageData, setCurrentPageData] = useState(new Array(2).fill());
   const [stateOrder1, setStateOrder1]= useState(false)
@@ -38,11 +39,11 @@ function ListRoom() {
  const handleOrder7 = () => {
   setStateOrder7(!stateOrder7)
  }
+  const handleBook = async() =>{
 
-
-  const handleBook = () => {
-    swal("Booking Succefull!", "Please Pay!");
-  };
+    swal("Here's a message!", "Please Pay!")
+    Navigate('/Payment')
+  }
   return (
     <div>
       <div className="header-booking-form">
@@ -530,4 +531,4 @@ function ListRoom() {
   );
 }
 
-export default ListRoom;
+export default ListFood;
